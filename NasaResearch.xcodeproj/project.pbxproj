@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		176311DACC00FB6DEAD361AC /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
 		3AA60F8927FAE87629803472 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyApp/Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5D16553021B700A200589BD3 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D16553021B700A200589BD3 /* NasaResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D16553321B700A200589BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D16553521B700A200589BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D16553821B700A200589BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		5D16553121B700A200589BD3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D16553021B700A200589BD3 /* MyApp.app */,
+				5D16553021B700A200589BD3 /* NasaResearch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +71,8 @@
 				5D16553C21B700A400589BD3 /* LaunchScreen.storyboard */,
 				5D16553F21B700A400589BD3 /* Info.plist */,
 			);
-			path = MyApp;
+			name = MyApp;
+			path = NasaResearch;
 			sourceTree = "<group>";
 		};
 		7D1EF026DBCA6195F0A800FE /* Pods */ = {
@@ -94,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D16552F21B700A200589BD3 /* MyApp */ = {
+		5D16552F21B700A200589BD3 /* NasaResearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D16554221B700A400589BD3 /* Build configuration list for PBXNativeTarget "MyApp" */;
+			buildConfigurationList = 5D16554221B700A400589BD3 /* Build configuration list for PBXNativeTarget "NasaResearch" */;
 			buildPhases = (
 				8167AC3AA1EB913CBA771666 /* [CP] Check Pods Manifest.lock */,
 				5D16552C21B700A200589BD3 /* Sources */,
@@ -108,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = MyApp;
+			name = NasaResearch;
 			productName = MyApp;
-			productReference = 5D16553021B700A200589BD3 /* MyApp.app */;
+			productReference = 5D16553021B700A200589BD3 /* NasaResearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D16552B21B700A200589BD3 /* Build configuration list for PBXProject "MyApp" */;
+			buildConfigurationList = 5D16552B21B700A200589BD3 /* Build configuration list for PBXProject "NasaResearch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D16552F21B700A200589BD3 /* MyApp */,
+				5D16552F21B700A200589BD3 /* NasaResearch */,
 			);
 		};
 /* End PBXProject section */
@@ -366,12 +367,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4AYSN24S6A;
-				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_FILE = NasaResearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = deniz.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = deniz.NasaResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,12 +386,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4AYSN24S6A;
-				INFOPLIST_FILE = MyApp/Info.plist;
+				INFOPLIST_FILE = NasaResearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = deniz.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = deniz.NasaResearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,7 +401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D16552B21B700A200589BD3 /* Build configuration list for PBXProject "MyApp" */ = {
+		5D16552B21B700A200589BD3 /* Build configuration list for PBXProject "NasaResearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D16554021B700A400589BD3 /* Debug */,
@@ -409,7 +410,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D16554221B700A400589BD3 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
+		5D16554221B700A400589BD3 /* Build configuration list for PBXNativeTarget "NasaResearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D16554321B700A400589BD3 /* Debug */,
